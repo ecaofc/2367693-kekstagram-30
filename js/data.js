@@ -94,4 +94,4 @@ const createDescriptiveObject = () => ({
 
 const getPhotosArray = () => Array.from({length: 25}, createDescriptiveObject);
 
-export {getPhotosArray};
+export {getPhotosArray, createCommentedObject};
